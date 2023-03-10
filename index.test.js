@@ -5,9 +5,9 @@ test('more than 10 characters', () => {
 });
 
 test('string id good', () => {
-    expect(stringLength('Hello')).toBe(5);
+    expect(() => stringLength('Hello')).toBe(5);
 });
 
 test('less than 1 characters', () => {
-    expect(stringLength('')).toThrow(Error);
+    expect(() => stringLength('')).toThrow(Error);
 });
