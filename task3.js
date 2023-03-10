@@ -1,14 +1,14 @@
 class Calculator {
-    static add(a, b) {
+    add(a, b) {
         return a + b;
     };
-    static substract(a, b) {
+    substract(a, b) {
         return a - b;
     };
-    static devide(a, b) {
+    devide(a, b) {
         return a / b;
     };
-    static multiply(a, b) {
+    multiply(a, b) {
         return a * b;
     };
 }
